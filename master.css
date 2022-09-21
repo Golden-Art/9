@@ -1,0 +1,122 @@
+
+
+
+header {
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px 2px;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: goldenrod;
+    background-color: black;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+
+.navigation a:hover {
+    color:goldenrod;
+
+}
+
+.con {
+    text-align: center;
+    background-color: black;
+}
+
+.t {
+    background-color: #eee;
+    border: 5px solid ;
+    border-radius: 10px;    
+    border-color: #af9e0be8;
+}
+
+.color {
+    background-color: #26c126;
+}
+
+.color2 {
+    background-color: blue;
+}
+
+img {
+    margin-top: 60px;
+    block-size: 350px;
+    border: 5px solid #ffeb3b80;
+    border-radius: 20px;
+}
+
+.one {
+    padding-top: 1px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.the-last {
+    padding-bottom: 20px;
+}
+
+.spann {
+    text-decoration: none;
+    background-color: #26c126;
+    padding:3px 10px 3px 10px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.2s;
+}
+.spann:hover {
+    background-color: #67ff67;
+    padding: 11px;
+}
+
+.fe {
+    text-decoration: none;
+    background-color: blue;
+    padding:3px 10px 3px 10px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.2s;
+}
+
+.fe:hover {
+    background-color: #8686ff;
+    padding: 11px;
+}
+
+
+@media (max-width:760px){
+    header {
+        padding: 1px 2px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .logo {
+        padding: 0 3px 0 3px;
+    }
+
+}
